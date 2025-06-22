@@ -1,0 +1,27 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write # Necessary to publish into GitHub Packages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: 'com.actioncode.attributes'
+
+      - name: Publish package
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }} # Personal Acess token
+        run: |
+          npm publish --access public
