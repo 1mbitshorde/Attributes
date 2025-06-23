@@ -66,11 +66,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/attributes/compare/3.1.0...main
-[3.1.0]: https://github.com/HyagoOliveira/attributes/tree/3.1.0/
-[3.0.0]: https://github.com/HyagoOliveira/attributes/tree/3.0.0/
-[2.1.0]: https://github.com/HyagoOliveira/attributes/tree/2.1.0/
-[2.0.1]: https://github.com/HyagoOliveira/attributes/tree/2.0.1/
-[2.0.0]: https://github.com/HyagoOliveira/attributes/tree/2.0.0/
-[1.2.0]: https://github.com/HyagoOliveira/attributes/tree/1.2.0/
-[1.1.1]: https://github.com/HyagoOliveira/attributes/tree/1.1.0/
+[Unreleased]: https://github.com/1mbitshorde/attributes/compare/3.1.0...main
+[3.1.0]: https://github.com/1mbitshorde/attributes/tree/3.1.0/
+[3.0.0]: https://github.com/1mbitshorde/attributes/tree/3.0.0/
+[2.1.0]: https://github.com/1mbitshorde/attributes/tree/2.1.0/
+[2.0.1]: https://github.com/1mbitshorde/attributes/tree/2.0.1/
+[2.0.0]: https://github.com/1mbitshorde/attributes/tree/2.0.0/
+[1.2.0]: https://github.com/1mbitshorde/attributes/tree/1.2.0/
+[1.1.1]: https://github.com/1mbitshorde/attributes/tree/1.1.0/

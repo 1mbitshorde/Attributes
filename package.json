@@ -10,13 +10,13 @@
   ],
   "category": "Property Attributes",
   "license": "MIT",
-  "homepage": "https://github.com/HyagoOliveira/attributes#readme",
+  "homepage": "https://github.com/1mbitshorde/attributes#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/attributes.git"
+    "url": "https://github.com/1mbitshorde/Attributes.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/attributes#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/attributes/CHANGELOG.md",
+  "documentationUrl": "https://github.com/1mbitshorde/attributes#readme",
+  "changelogUrl": "https://github.com/1mbitshorde/attributes/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"
