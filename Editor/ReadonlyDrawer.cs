@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(ReadonlyAttribute))]
     public sealed class ReadonlyDrawer : PropertyDrawer

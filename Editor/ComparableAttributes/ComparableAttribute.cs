@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     public class ComparableAttribute<T> : IComparableAttribute where T : IComparable
     {

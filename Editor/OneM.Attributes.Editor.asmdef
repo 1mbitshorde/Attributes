@@ -1,8 +1,12 @@
 {
-    "name": "ActionCode.Attributes",
-    "rootNamespace": "ActionCode.Attributes",
-    "references": [],
-    "includePlatforms": [],
+    "name": "OneM.Attributes.Editor",
+    "rootNamespace": "OneM.Attributes.Editor",
+    "references": [
+        "GUID:756f810f17dfec54abc9b3899a63acdf"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

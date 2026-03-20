@@ -1,4 +1,4 @@
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Types of Comparisons.

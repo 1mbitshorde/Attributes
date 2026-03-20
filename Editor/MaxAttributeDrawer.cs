@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(MaxAttribute))]
     public sealed class MaxAttributeDrawer : PropertyDrawer

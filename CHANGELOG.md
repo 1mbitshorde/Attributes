@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.0.0] - 2026-03-20
+### Changed
+- Move package into 1M Bits Horde
+
 ## [3.4.0] - 2026-02-17
 ### Added
 - Max attribute
@@ -29,7 +33,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Increase Unity version to 2020.3
-- Rename asdf file ActionCode.Attributes.Runtime -> ActionCode.Attributes
+- Rename asdf file OneM.Attributes.Runtime -> OneM.Attributes
 - Try to draw custom property fields using DisableInPlayMode attribute
 
 ## [2.1.0] - 2022-09-03
@@ -48,7 +52,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Disable In Play Mode Attribute
 
 ### Changed
-- Add ActionCode.Attributes namespace
+- Add OneM.Attributes namespace
 
 ## [1.2.0] - 2020-07-26
 ### Added
@@ -79,14 +83,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/attributes/compare/3.4.0...main
-[3.4.0]: https://github.com/HyagoOliveira/attributes/tree/3.4.0/
-[3.3.0]: https://github.com/HyagoOliveira/attributes/tree/3.3.0/
-[3.2.0]: https://github.com/HyagoOliveira/attributes/tree/3.2.0/
-[3.1.0]: https://github.com/HyagoOliveira/attributes/tree/3.1.0/
-[3.0.0]: https://github.com/HyagoOliveira/attributes/tree/3.0.0/
-[2.1.0]: https://github.com/HyagoOliveira/attributes/tree/2.1.0/
-[2.0.1]: https://github.com/HyagoOliveira/attributes/tree/2.0.1/
-[2.0.0]: https://github.com/HyagoOliveira/attributes/tree/2.0.0/
-[1.2.0]: https://github.com/HyagoOliveira/attributes/tree/1.2.0/
-[1.1.1]: https://github.com/HyagoOliveira/attributes/tree/1.1.0/
+[Unreleased]: https://github.com/1mbitshorde/attributes/compare/4.0.0...main
+[4.0.0]: https://github.com/1mbitshorde/attributes/tree/4.0.0/
+[3.4.0]: https://github.com/1mbitshorde/attributes/tree/3.4.0/
+[3.3.0]: https://github.com/1mbitshorde/attributes/tree/3.3.0/
+[3.2.0]: https://github.com/1mbitshorde/attributes/tree/3.2.0/
+[3.1.0]: https://github.com/1mbitshorde/attributes/tree/3.1.0/
+[3.0.0]: https://github.com/1mbitshorde/attributes/tree/3.0.0/
+[2.1.0]: https://github.com/1mbitshorde/attributes/tree/2.1.0/
+[2.0.1]: https://github.com/1mbitshorde/attributes/tree/2.0.1/
+[2.0.0]: https://github.com/1mbitshorde/attributes/tree/2.0.0/
+[1.2.0]: https://github.com/1mbitshorde/attributes/tree/1.2.0/
+[1.1.1]: https://github.com/1mbitshorde/attributes/tree/1.1.0/

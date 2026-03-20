@@ -1,4 +1,4 @@
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Attribute for showing fields when the given condition is met.

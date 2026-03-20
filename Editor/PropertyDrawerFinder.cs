@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using UnityEditor;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     /// <summary>
     /// Finds custom property drawer for a given <see cref="SerializedProperty"/>.

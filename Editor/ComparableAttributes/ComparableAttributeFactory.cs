@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     public static class ComparableAttributeFactory
     {

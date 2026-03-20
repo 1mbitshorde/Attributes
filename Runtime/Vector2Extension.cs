@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Extension class for Vectors 2

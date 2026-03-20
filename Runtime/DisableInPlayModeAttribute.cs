@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Disables the property when in play mode.

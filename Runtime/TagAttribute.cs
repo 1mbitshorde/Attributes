@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Property Attribute for tags fields. Use it with string fields.

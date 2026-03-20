@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     public abstract class AbstractComparableAttributeDrawer<T> : PropertyDrawer where T : AbstractComparableAttribute
     {

@@ -1,4 +1,4 @@
-﻿namespace ActionCode.Attributes.Editor
+﻿namespace OneM.Attributes.Editor
 {
     public class ReferenceComparableAttribute : IComparableAttribute
     {

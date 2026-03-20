@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     /// <summary>
     /// Custom Property Drawer for <see cref="DisableInPlayModeAttribute"/>.

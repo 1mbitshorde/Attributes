@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     /// <summary>
     /// Custom property drawer for <see cref="CreateButtonAttribute"/>.

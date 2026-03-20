@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Use this attribute to clamp integer and floating point values to a maximum value in the inspector.

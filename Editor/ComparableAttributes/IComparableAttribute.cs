@@ -1,4 +1,4 @@
-﻿namespace ActionCode.Attributes.Editor
+﻿namespace OneM.Attributes.Editor
 {
     /// <summary>
     /// Interface used on objects able to be a Comparable Attribute.

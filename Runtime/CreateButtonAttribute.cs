@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Adds a Create Button next to a ScriptableObject field if no reference is set.

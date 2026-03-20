@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Abstract class for Comparable Attributes.

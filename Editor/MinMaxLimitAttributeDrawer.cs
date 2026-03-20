@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(MinMaxLimitAttribute))]
     public class MinMaxLimitAttributeDrawer : PropertyDrawer

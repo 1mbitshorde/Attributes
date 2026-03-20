@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.Attributes
+namespace OneM.Attributes
 {
     /// <summary>
     /// Make a field readonly, disabling changes on it.

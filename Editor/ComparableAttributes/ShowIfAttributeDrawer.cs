@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace ActionCode.Attributes.Editor
+namespace OneM.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(ShowIfAttribute))]
     public class ShowIfAttributeDrawer : AbstractComparableAttributeDrawer<ShowIfAttribute>

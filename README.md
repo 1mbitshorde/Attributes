@@ -1,9 +1,8 @@
 # Attributes
 
 * Property attributes for Unity fields
-* Unity minimum version: **2020.3**
-* Current version: **3.4.0**
-* Licence: **MIT**
+* Unity minimum version: **6000.3**
+* Current version: **4.0.0**
 
 ## Summary
 
@@ -18,7 +17,7 @@ Just use one of the following attributes:
 
 ```csharp
 using UnityEngine;
-using ActionCode.Attributes;
+using OneM.Attributes;
 
 public sealed class TestBehaviour : MonoBehaviour
 {
@@ -33,7 +32,7 @@ public sealed class TestBehaviour : MonoBehaviour
 * **ShowIf**: use it to show properties based on the current state of the object.
 
 ```csharp
-using ActionCode.Attributes;
+using OneM.Attributes;
 
 public sealed class TestBehaviour : MonoBehaviour
 {
@@ -49,7 +48,7 @@ public sealed class TestBehaviour : MonoBehaviour
 * **ReadonlyIf**: use it to not allow changes in properties based on the current state of the object.
 
 ```csharp
-using ActionCode.Attributes;
+using OneM.Attributes;
 
 public sealed class TestBehaviour : MonoBehaviour
 {
@@ -64,7 +63,7 @@ public sealed class TestBehaviour : MonoBehaviour
 * **CreateButton**: use it to add a Create Button next to a ScriptableObject field if no reference is set.
 
 ```csharp
-using ActionCode.Attributes;
+using OneM.Attributes;
 
 public sealed class TestBehaviour : MonoBehaviour
 {
@@ -79,7 +78,7 @@ public sealed class TestBehaviour : MonoBehaviour
 
 ```csharp
 using UnityEngine;
-using ActionCode.Attributes;
+using OneM.Attributes;
 
 public sealed class TestBehavior : MonoBehaviour
 {
@@ -100,18 +99,18 @@ public sealed class TestBehavior : MonoBehaviour
 
 ### Using the Package Registry Server
 
-Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **ActionCode-Attributes** will be available for you to install using the **Package Manager** windows.
+Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **1M Bits Horde-Attributes** will be available for you to install using the **Package Manager** windows.
 
 ### Using the Git URL
 
 You will need a **Git client** installed on your computer with the Path variable already set. 
 
-- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/Attributes.git`
+- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/1mbitshorde/Attributes.git`
 
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.attributes":"https://github.com/HyagoOliveira/Attributes.git"
+"com.1mbitshorde.attributes":"https://github.com/1mbitshorde/Attributes.git"
 ```
 ---
 
