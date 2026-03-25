@@ -2,7 +2,7 @@
 
 * Property attributes for Unity fields
 * Unity minimum version: **6000.3**
-* Current version: **4.0.0**
+* Current version: **4.1.0**
 
 ## Summary
 

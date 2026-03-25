@@ -1,7 +1,7 @@
 {
   "name": "com.1mbitshorde.attributes",
   "displayName": "1M Bits Horde-Attributes",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "unity": "6000.3",
   "description": "Property attributes for Unity projects.",
   "keywords": [
