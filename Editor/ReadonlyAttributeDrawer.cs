@@ -8,7 +8,7 @@ namespace OneM.Attributes.Editor
     [CustomPropertyDrawer(typeof(ReadonlyAttribute))]
     public sealed class ReadonlyAttributeDrawer : PropertyDrawer
     {
-        // Legacy IMUI approach (for fallback compatibility)
+        #region Legacy IMUI (Immediate Mode UI) approach (for fallback compatibility)
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             GUI.enabled = false;
@@ -16,12 +16,20 @@ namespace OneM.Attributes.Editor
             GUI.enabled = true;
         }
 
-        // Modern UI Toolkit approach (Unity 2021.3+)
+        public override float GetPropertyHeight(SerializedProperty property, GUIContent label) =>
+            EditorGUI.GetPropertyHeight(property, label, includeChildren: true);
+        #endregion
+
+        #region Modern UI Toolkit approach (Unity 2021.3+)
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
             var field = new PropertyField(property);
+
+            field.BindProperty(property);
             field.SetEnabled(false);
+
             return field;
         }
+        #endregion
     }
 }
