@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Enum comparison
+
 ## [4.1.0] - 2026-03-25
 ### Added
 - Fallback compatibility for Readonly Attribute

@@ -16,7 +16,7 @@ namespace OneM.Attributes.Editor
                 SerializedPropertyType.Color => throw new System.NotImplementedException(),
                 SerializedPropertyType.ObjectReference => new ReferenceComparableAttribute(property.objectReferenceInstanceIDValue, attribute.value),
                 SerializedPropertyType.LayerMask => new ComparableAttribute<int>(property.intValue, (int)attribute.value, attribute.operatorType),
-                SerializedPropertyType.Enum => new ComparableAttribute<int>(property.enumValueIndex, (int)attribute.value, attribute.operatorType),
+                SerializedPropertyType.Enum => new ComparableAttribute<int>(property.enumValueFlag, (int)attribute.value, attribute.operatorType),
                 SerializedPropertyType.Vector2 => throw new System.NotImplementedException(),
                 SerializedPropertyType.Vector3 => throw new System.NotImplementedException(),
                 SerializedPropertyType.Vector4 => throw new System.NotImplementedException(),
