@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.1.1] - 2026-05-06
 ### Fixed
 - Enum comparison
 
@@ -90,7 +91,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/attributes/compare/4.1.0...main
+[Unreleased]: https://github.com/1mbitshorde/attributes/compare/4.1.1...main
+[4.1.1]: https://github.com/1mbitshorde/attributes/tree/4.1.1/
 [4.1.0]: https://github.com/1mbitshorde/attributes/tree/4.1.0/
 [4.0.0]: https://github.com/1mbitshorde/attributes/tree/4.0.0/
 [3.4.0]: https://github.com/1mbitshorde/attributes/tree/3.4.0/
