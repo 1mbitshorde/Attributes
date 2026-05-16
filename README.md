@@ -59,6 +59,15 @@ public sealed class TestBehaviour : MonoBehaviour
 
 ![Readonly If Attribute Showcase](/Documentation~/attributes-readonly-if.gif)
 
+If your field is a Property, set the `isProperty` flag
+
+```csharp
+    [field: SerializeField]
+    public RigidbodyConstraints2D Constraint { get; private set; }
+    [field: SerializeField, ReadonlyIf(nameof(Constraint), RigidbodyConstraints2D.FreezePositionX, isProperty: true)]
+    public float ForceX { get; private set; }
+```
+
 * **CreateButton**: use it to add a Create Button next to a ScriptableObject field if no reference is set.
 
 ```csharp
