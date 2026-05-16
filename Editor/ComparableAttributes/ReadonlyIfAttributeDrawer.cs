@@ -11,10 +11,10 @@ namespace OneM.Attributes.Editor
             if (isConditionMet)
             {
                 GUI.enabled = false;
-                EditorGUI.PropertyField(position, property, label);
+                EditorGUI.PropertyField(position, property, label, includeChildren: true);
                 GUI.enabled = true;
             }
-            else EditorGUI.PropertyField(position, property, label);
+            else EditorGUI.PropertyField(position, property, label, includeChildren: true);
         }
     }
 }

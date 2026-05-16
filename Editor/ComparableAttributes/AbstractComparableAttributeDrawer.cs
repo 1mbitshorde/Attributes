@@ -5,6 +5,9 @@ namespace OneM.Attributes.Editor
 {
     public abstract class AbstractComparableAttributeDrawer<T> : PropertyDrawer where T : AbstractComparableAttribute
     {
+        public override float GetPropertyHeight(SerializedProperty property, GUIContent _) =>
+            EditorGUI.GetPropertyHeight(property, includeChildren: true);
+
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             var comparableAttibute = attribute as T;

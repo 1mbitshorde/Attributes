@@ -6,18 +6,15 @@ namespace OneM.Attributes.Editor
     [CustomPropertyDrawer(typeof(ShowIfAttribute))]
     public class ShowIfAttributeDrawer : AbstractComparableAttributeDrawer<ShowIfAttribute>
     {
-        private float propertyHeight;
+        private bool isConditionMet;
 
-        public override float GetPropertyHeight(SerializedProperty _, GUIContent __) => propertyHeight;
+        public override float GetPropertyHeight(SerializedProperty property, GUIContent _) => isConditionMet ?
+            EditorGUI.GetPropertyHeight(property, includeChildren: true) : 0f;
 
         protected override void DrawProperty(bool isConditionMet, Rect position, SerializedProperty property, GUIContent label)
         {
-            if (isConditionMet)
-            {
-                EditorGUI.PropertyField(position, property, label);
-                propertyHeight = base.GetPropertyHeight(property, label);
-            }
-            else propertyHeight = 0;
+            this.isConditionMet = isConditionMet;
+            if (isConditionMet) EditorGUI.PropertyField(position, property, label, includeChildren: true);
         }
     }
 }
