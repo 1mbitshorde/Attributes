@@ -59,12 +59,13 @@ public sealed class TestBehaviour : MonoBehaviour
 
 ![Readonly If Attribute Showcase](/Documentation~/attributes-readonly-if.gif)
 
-If your field is a Property, set the `isProperty` flag
+If your field is a Property, set the `isProperty` flag to `true`.
 
 ```csharp
     [field: SerializeField]
     public RigidbodyConstraints2D Constraint { get; private set; }
-    [field: SerializeField, ReadonlyIf(nameof(Constraint), RigidbodyConstraints2D.FreezePositionX, isProperty: true)]
+    [field: SerializeField, 
+    ReadonlyIf(nameof(Constraint), RigidbodyConstraints2D.FreezePositionX, isProperty: true)]
     public float ForceX { get; private set; }
 ```
 
