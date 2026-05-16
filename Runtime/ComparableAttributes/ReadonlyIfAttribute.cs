@@ -7,27 +7,30 @@ namespace OneM.Attributes
     public sealed class ReadonlyIfAttribute : AbstractComparableAttribute
     {
         /// <summary>
-        /// Disallows changes in this field only if the given property is equals to the value.
+        /// Disallows changes in this field only if the given field is equals to the value.
         /// </summary>
-        /// <param name="property">The name of the property to compare (case sensitive).</param>
-        /// <param name="value">The value to compare with the property.</param>
-        public ReadonlyIfAttribute(string property, object value)
-            : base(property, LogicalOperatorType.Equals, value) { }
+        /// <param name="field">The name of the field to compare (case sensitive).</param>
+        /// <param name="value">The value to compare with the field.</param>
+        /// <param name="isProperty">Whether the field to compare is a property or not.</param>
+        public ReadonlyIfAttribute(string field, object value, bool isProperty = false)
+            : base(field, LogicalOperatorType.Equals, value, isProperty) { }
 
         /// <summary>
-        /// Disallows changes in this field only if the given property is not null.
+        /// Disallows changes in this field only if the given field is not null.
         /// </summary>
-        /// <param name="property">The name of the property to compare (case sensitive).</param>
-        public ReadonlyIfAttribute(string property)
-            : base(property, LogicalOperatorType.NotEqual, null) { }
+        /// <param name="field">The name of the field to compare (case sensitive).</param>
+        /// <param name="isProperty">Whether the field to compare is a property or not.</param>
+        public ReadonlyIfAttribute(string field, bool isProperty = false)
+            : base(field, LogicalOperatorType.NotEqual, null, isProperty) { }
 
         /// <summary>
         /// Disallows changes in this field only if the given condition is met.
         /// </summary>
-        /// <param name="property">The name of the property to compare (case sensitive).</param>
+        /// <param name="field">The name of the field to compare (case sensitive).</param>
         /// <param name="operatorType">The Comparison Operator to use.</param>
-        /// <param name="value">The value to compare with the property.</param>
-        public ReadonlyIfAttribute(string property, LogicalOperatorType operatorType, object value)
-            : base(property, operatorType, value) { }
+        /// <param name="value">The value to compare with the field.</param>
+        /// <param name="isProperty">Whether the field to compare is a property or not.</param>
+        public ReadonlyIfAttribute(string field, LogicalOperatorType operatorType, object value, bool isProperty = false)
+            : base(field, operatorType, value, isProperty) { }
     }
 }

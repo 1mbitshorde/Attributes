@@ -11,13 +11,13 @@ namespace OneM.Attributes.Editor
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             var comparableAttibute = attribute as T;
-            var comparableProperty = FindPropertyByPath(property, comparableAttibute.property);
+            var comparableProperty = FindPropertyByPath(property, comparableAttibute.field);
 
             if (comparableProperty == null)
             {
                 Debug.LogErrorFormat(
                     "The isn't any serialized '{0}' property present on '{1}'",
-                    comparableAttibute.property,
+                    comparableAttibute.field,
                     property.serializedObject.targetObject.name
                 );
                 return;
