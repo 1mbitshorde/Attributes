@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [5.0.0] - 2026-09-08
 ### Changed
 - Update to Unity 6000.6
 
@@ -104,7 +106,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/attributes/compare/4.3.0...main
+[Unreleased]: https://github.com/1mbitshorde/attributes/compare/5.0.0...main
+[5.0.0]: https://github.com/1mbitshorde/attributes/tree/5.0.0/
 [4.3.0]: https://github.com/1mbitshorde/attributes/tree/4.3.0/
 [4.2.0]: https://github.com/1mbitshorde/attributes/tree/4.2.0/
 [4.1.1]: https://github.com/1mbitshorde/attributes/tree/4.1.1/
