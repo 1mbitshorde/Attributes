@@ -1,7 +1,7 @@
 # Attributes
 
 * Property attributes for Unity fields
-* Unity minimum version: **6000.3**
+* Unity minimum version: **6000.6**
 
 ## Summary
 
